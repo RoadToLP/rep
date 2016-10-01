@@ -22,6 +22,7 @@ int main(){
 	} else {
 		cout << "X1: " << x1 << endl;
 	}
-	cout << "Peak: " << (((-1)*b)/(2*a)) << endl;
+	float peakX = (((-1)*b)/(2*a));
+	cout << "Peak: X = " << peakX << "; Y = " << (pow(peakX, 2) * a) + (peakX * b) + c << endl;
 	return 0;
 }	
