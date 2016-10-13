@@ -1,0 +1,47 @@
+								     13.10.16
+*a - Указатель
+&a - узнать блок памяти
+int a[]={1,2,3,4,5,6}; - Массив
+Вектор
+#include <vector>
+Syntax: vector <int> name (10,1); //10 - длина; 1 - заложим;
+vec = {1,2,3};
+vec.push_back(5); // vec = {1,2,3,5}
+vec.pop_back(); // vec = {1,2,3}
+more - cppreference;
+СТЕК
+push, pop, peek
+#include <stack>
+stack <int> S
+s.push('A');
+s.push('D');
+s.pop('D');
+class Node{
+	int data;
+	Node* next = NULL;
+};
+Очередь
+FIFO
+list <int> list;
+#include <list>
+#include <forward_list>
+class Node{
+	Node* next;
+	Node* prev;
+};
+deque
+double-ended queue
+#include <deque>
+d1eque <int> dq;
+char s[] = {'A','B','C'};
+deque <char> s_dq(s);
+СТРОКИ
+#include <string>
+string s = "asdf";
+s("asdf");
+// vector <int> M;
+int V[5][5]; // Matrix
+s.length();
+s.index('a');
+s.index(s.begin, s.begin+10, 'a');
+s.substr(s.begin, s.begin+10);
