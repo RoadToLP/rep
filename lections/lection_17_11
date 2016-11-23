@@ -1,0 +1,25 @@
+План:
+Динамическое программирование
+Фибоначи
+Кратчайший путь
+Динамическое программирование
+-> Осторожный перебор
+-> Разбиение на подзадачи
+-> Ацикличность
+Фибоначи
+#include <iostream>
+using namespace std;
+vecrot <int> memo(N, 0);
+int fi(int n){
+	if (memo[n] > 0) then return memo[n];
+	if (n <= 2) f = 1;
+	return fi(n-1)+fi(n-2);
+	else f = fi(n-1) + fi(n-2);
+	memo[n] = f;
+	return f;
+}
+T(n) = T(n-1) + T(n-2) + O(1);
+Кратчайший путь
+G = <X, E>
+(V1, V2) - вершины ребра
+
